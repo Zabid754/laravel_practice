@@ -13,7 +13,7 @@ class StudentController extends Controller
         echo $data1->testFun();
         //$students= Student::all();
         //$students= Student::where('Phone','21000')->get();
-       //$students= Student::where('Phone','21000')->first();
+        //$students= Student::where('Phone','21000')->first();
         //$students= Student::find(3);
         $students= Student::insert([
             'Name'=>'Sami',
